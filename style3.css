@@ -1,0 +1,121 @@
+body {
+background : #1e2334;
+font-size : 40pt;
+font-family: 'Montserrat', sans-serif;
+color : #ffffff;
+float : inherit;
+}
+#logo {
+display: block;
+margin: 0 auto;
+width: 400px;
+}
+.une {
+text-align:center;
+font-family : Montserrat;
+font-size : 35pt;
+color : #fff;
+text-decoration: none;
+user-select: none;
+}
+.une:hover {
+color : #5770ff;
+}
+.contact{
+text-align:center;
+font-size: 20pt;
+}
+
+
+.textetitre{
+color:#ff7987;
+font-size:40pt;
+user-select: none;
+text-decoration:none;
+font-weight: 700;
+}
+.textetitre:hover{
+color:#ff5f70;
+}
+.contener_slideshow{
+width:1000px;
+height:354px;
+overflow: hidden;
+position: relative;
+border-radius: 22px;
+}
+.slid_1, .slid_2, .slid_3{
+position: absolute;
+width:1000px;
+height:708px;
+border-radius: 22px;
+}
+.slid_4, .slid_5, .slid_6{
+position: absolute;
+border-radius: 22px;
+width:1000px;
+margin-left: 20px;
+margin-right: auto;
+text-align: left;
+top:77px;
+}
+.slid_1, .slid_4{
+left: 0;
+border-radius: 22px;
+}
+.slid_2, .slid_5{
+left: 1000px;
+border-radius: 22px;
+}
+.slid_3, .slid_6{
+left: 2000px;
+border-radius: 22px;
+}
+.slides{
+border-radius: 22px;
+}
+nav{
+text-align : center;
+position : relative;
+top : 0;
+right: 0;
+left: 0;
+height : 100px;
+background-color : #2c3049;
+padding : 0 0;
+border-radius : 8px;
+}
+ul{
+line-height : inherit;
+}
+ul li{
+list-style : none;
+display : inline-block;
+padding : 0 0;
+line-height : 100px;
+float : inherit;
+}
+ul li a:hover{
+color : #5770ff;
+}
+ul li a{
+text-align : center;
+display : block;
+text-decoration : none;
+font-size : 22px;
+font-family : Montserrat;
+color : #fff;
+padding : 0 15px;
+}
+#bottom{
+position: static;
+left:50%;
+right:50%;
+}
+#credits{
+font-size: 30px;
+position: relative;
+bottom:112px;
+left:450px;
+font-weight: 600;
+}
